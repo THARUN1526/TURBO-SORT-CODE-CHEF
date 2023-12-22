@@ -1,0 +1,23 @@
+
+1. **Input:**
+   - The first line of input (`a=int(input())`) takes an integer `a` representing the number of elements in the list.
+   - The next `a` lines (`for i in range(a)`) take the input of `a` integers and store them in a list `k`.
+
+2. **List Creation:**
+   - An empty list `k` is created to store the input integers.
+
+3. **Input Loop:**
+   - The code then enters a loop (`for i in range(a)`) to iterate `a` times.
+   - In each iteration, it takes an integer input (`b=int(input())`) and appends it to the list `k`.
+
+4. **Sorting:**
+   - After the input loop, the list `k` is sorted in ascending order using the `sort()` function (`k.sort()` in Python, `std::sort` in C++, `qsort` in C, and `Arrays.sort` in Java).
+
+5. **Output:**
+   - Finally, another loop is used to iterate through the sorted list `k`, and each element is printed on a new line (`for i in k: print(i)` in Python, `for (int i : k) cout << i << endl;` in C++, `for (int i = 0; i < a; ++i) printf("%d\n", k[i]);` in C, and `for (int i : k) System.out.println(i);` in Java).
+
+The overall algorithm can be summarized as follows:
+- Take the number of elements `a`.
+- Create a list `k` and input `a` integers into the list.
+- Sort the list `k` in ascending order.
+- Output each element of the sorted list on a new line.
